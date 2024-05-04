@@ -6,10 +6,7 @@
     triggers {
         cron('H H(8-15)/2 * * 1-5')
     }
-   parameters {
 
-	 
-    }
     stages {
        
           stage('Code Build') {
